@@ -1,0 +1,207 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Poppins&family=Roboto&display=swap');
+:root {
+    --green:rgba(31, 187, 154, 1);
+    --light-gray:#00000080;
+    --black:#000000;
+
+}
+main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    user-select: none;
+    font-family: Poppins;
+    background: url(../Carrosel\ meio-\ ICr.png);
+    background-size: cover;
+}
+
+.container {
+    width: 20em;
+    padding: 1.5em;
+    border-radius: 0.6em;
+    backdrop-filter: blur(01.5em);
+    text-align: center;
+    border: 0.1em solid var(--light-gray);
+}
+
+.container .form-section {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.form-section h1 {
+    font-size: 2rem;
+    font-weight: bold;
+    color: var(--green);
+    margin: 0 0 1em 0;
+
+}
+.form-section .input-box {
+    position: relative;
+    margin: 0 0 2em;
+}
+.form-section .input-box label {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    color: var(--black);
+    transform: translateY(-50%);
+    pointer-events: none;
+    transition: 0.2 ease;
+}
+.input-box input {
+    width: 100%;
+    height: 2.4em;
+    font-size: 1.2em;
+    color: var(--black);
+    font-family: Poppins;
+}
+.input-box input:focus ~ label,
+.input-box input:valid ~ label {
+    font-size: 0.8rem;
+    top: 0.6em;
+    transform: translateY(-120%);
+}
+.input-box .eye-wrapper {
+    position: absolute;
+    height: 1.7em;
+    width: 1.7em;
+    background-color: transparent;
+    color: var(--black);
+    right: 0;
+    top: 0.7em;
+    border-radius: 1em;
+    cursor: pointer;
+    z-index: 1;
+    transition: 0.5s;
+}
+.eye-wrapper .close{
+    display: block;
+}
+.eye-wrapper .open {
+    display:none;
+}
+
+.eye-wrapper .close, .open {
+    position: absolute;
+    transform: translate(0.2em, 0.4em);
+    font-size: 1rem;
+}
+.form-section .remember-forgot {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+    margin: 0 0 1em 0;
+    color: var(--black);
+}
+
+.form-section .remember-forgot label {
+    display: flex;
+    align-items: center;
+}
+.remember-forgot label #remember {
+    accent-color: var(--black);
+    cursor: pointer;
+}
+
+.container .btn-login {
+    padding: 0.75em 1.25em;
+    cursor: pointer;
+    border-radius: 0.3em;
+    font-size: 1rem;
+    font-weight: bold;
+    margin: 1.5em 0;
+    color: var(--black);
+    background-color: white;
+    transition: 0.3s ease;
+    border: 0.2em solid transparent;
+    text-transform: uppercase;
+}
+
+.container .btn-login:hover {
+    color: var(--black);
+    border-color: var(--black);
+    background-color: var(gray);
+}
+
+.register p {
+    color: var(--black);
+}
+.register p a:hover {
+    text-decoration: underline;
+}
+.remember-forgot label p, .register p a {
+    margin-left: 0.5em;
+}
+.remember-forgot a, .register p a {
+    color: blue;
+    text-decoration: none;
+}
+
+section#low {
+    background-color: #5FB4A2B2;
+}
+
+
+
+div#ultra-low {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 1rem;
+  }
+
+
+  div#right-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    width: 15rem;
+  }
+
+  div#left-text {
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 1rem;
+    
+  }
+
+
+
+  div#center-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 1rem;
+  }
+
+
+ul#options {
+    list-style: none;
+    gap: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+
+}
+
+
+.wrong-text {
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+}
+
+
+.vertical-line {
+    border-left: 1px solid #000; 
+    height: 100px; 
+  }

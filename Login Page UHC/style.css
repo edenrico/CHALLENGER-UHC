@@ -1,0 +1,262 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Roboto&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    outline: none;
+    border: none;
+    box-sizing: border-box;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    justify-content: space-around;
+    
+    
+    
+}
+
+nav img{
+    height: 70px;
+    padding: 0.2rem
+}
+
+.btn {
+    padding: 0.2rem 0.8rem;
+    color: rgba(95, 180, 162, 1);
+    font-size: 0.8rem;
+    color: black;
+    background-color: rgba(95, 180, 162, 1);
+    border-radius: 10px;
+    cursor: pointer;
+    
+}
+
+.bt {
+    padding: 0.2rem 0.8rem;
+    color: rgba(95, 180, 162, 1);
+    font-size: 0.8rem;
+    color: black;
+    background-color: rgba(95, 180, 162, 1);
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+header{
+    background-color: rgba(40, 192, 160, 1)
+}
+
+header ul{
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    padding: 1rem 3rem;
+    list-style: none;
+    
+    
+}
+
+li{
+    padding-left: 25px;
+}
+
+main {
+    background-color: rgba(95, 180, 162, 0.3);
+}
+
+
+main img {
+    padding-top: 2rem;
+    
+   
+}
+
+.btn-2{
+    display: flex;
+    justify-content: space-around
+    
+}
+
+.btn-2 button {
+    padding: 10px 10px;
+    color: aliceblue;
+    background-color: black;
+}
+
+
+
+.container{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 6rem;
+}
+
+main h1,h2{
+    color: rgba(51, 49, 146, 1);
+    font-size: 3rem;
+    
+}
+
+div#text-agrupados{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 2rem;
+    padding-top: 5.5rem;
+
+
+}
+
+div#text-agrupados h2,h3,h4{
+    display: flex;
+    color: rgba(95, 180, 162, 1);
+    padding-bottom: 1rem;
+    align-items: center;
+    font-size: 1.5rem;
+    justify-content: center;
+    
+
+
+}
+
+div#text-agrupados p{
+    width: 300px;
+    line-height: 20px;
+    display: flex;
+    justify-content: center;
+    
+}
+
+div#text-agrupados h2{
+    padding-left: px;
+
+}
+
+div#text-agrupados h3{
+    padding-left: px;
+
+}
+
+div#text-agrupados h4{
+    padding-right: px;
+
+}
+
+main .btn-super{
+    display: flex;
+    justify-content: center;
+    padding-top: 6rem;
+    padding-bottom: 4rem;
+    
+
+}
+
+
+    
+
+
+button {
+    border-radius: 30px;
+    color: rgba(51, 49, 146, 1);
+    background-color: rgba(95, 180, 162, 1);
+    font-size: 2rem;
+    padding: 1rem;
+    cursor: pointer;
+}
+
+section#low {
+    background-color: #5FB4A2B2;
+}
+
+
+
+div#ultra-low {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 1rem;
+  }
+
+
+  div#right-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    width: 15rem;
+  }
+
+  div#left-text {
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 1rem;
+    
+  }
+
+
+
+  div#center-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 1rem;
+  }
+
+
+ul#options {
+    list-style: none;
+    gap: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+
+}
+
+
+.wrong-text {
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+}
+
+
+.vertical-line {
+    border-left: 1px solid #000; 
+    height: 100px; 
+  }
+
+
+
+
+
+
+    
+
+ 
+    
+    
+    
+
+    
+    
+
+
+
+
+
+
+
+
+    
+    
+
+    
+    
+    
+    
